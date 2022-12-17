@@ -1,4 +1,4 @@
-kamus = [" ", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"]
+kamus = [" ", ",.!?", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"]
 arr = list(map(str, input().split()))
 for i in range(len(arr)):
     print(kamus[int(arr[i][0])][len(arr[i])-1], end="")
